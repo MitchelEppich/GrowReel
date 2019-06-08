@@ -1,0 +1,261 @@
+/******MIXINS*******/
+// Block Element
+// @access public
+// @param {String} $element - Element's name
+@mixin element($element) {
+  &__#{$element} {
+    @content;
+  }
+}
+// Block Modifier
+// @access public
+// @param {String} $modifier - Modifier's name
+@mixin modifier($modifier) {
+  &--#{$modifier} {
+    @content;
+  }
+}
+
+.logoNavbar {
+  width: 250px;
+}
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+
+  border-top: 10px solid #969230;
+}
+.advideo::-webkit-media-controls-timeline {
+  pointer-events: none;
+}
+.authForm {
+  left: calc(50% - 11rem); //changed to fit on mobile and pc
+  top: 25%;
+  z-index: 61;
+  transform: translateY(0);
+  --webkit-transform: translateY(0);
+  --moz-transform: translateY(0);
+  --ms-transform: translateY(0);
+  --o-transform: translateY(0);
+  @include modifier("hide") {
+    transform: translateY(-100vh);
+    --webkit-transform: translateY(-100vh);
+    --moz-transform: translateY(-100vh);
+    --ms-transform: translateY(-100vh);
+    --o-transform: translateY(-100vh);
+  }
+}
+.helpForm {
+  // ADDED - Fhelipe
+  left: 20%;
+  text-align: center;
+  width: calc(100% - 40%);
+  top: 25%;
+  transition: all 0.5s;
+  z-index: 50;
+}
+.animateHelpText {
+  opacity: 1;
+  transition: all 0.5s;
+}
+.bookmarkPopup {
+  // ADDED - Fhelipe
+  bottom: 0;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  z-index: 50;
+}
+.searchbarItems {
+  display: inline-block;
+  background: rgba(162, 162, 162, 0.05);
+}
+.bars {
+  display: inline-block;
+  position: relative;
+  height: 1px;
+  width: 40px;
+  background-color: white;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transform: rotate(0deg);
+  -webkit-transition: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transition: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  @include modifier("showFirstBar") {
+    transform: rotate(45deg);
+    -webkit-transition: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transition: rotate(45deg);
+    -moz-transform: rotate(45deg);
+  }
+  @include modifier("showSecondBar") {
+    top: -18px;
+    transform: rotate(135deg);
+    -webkit-transition: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -o-transition: rotate(135deg);
+    -moz-transform: rotate(135deg);
+  }
+  @include modifier("secondBar") {
+    top: -10px;
+  }
+}
+.black-bar {
+  width: 100%;
+  height: 500px;
+  padding-top: 50px;
+
+  @include element("ad") {
+    height: 250px;
+    width: 444.44px;
+    margin: 75px auto 0 auto;
+    padding: 75px;
+    border: 1px solid white;
+    background-color: #000;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+}
+.dimScreen {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.fa-eye,
+.fa-clock {
+  cursor: default;
+}
+.hr {
+  height: 1px;
+  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+  -ms-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+  -o-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+}
+.hr-black {
+  height: 1px;
+  box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.8);
+  -ms-box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.8);
+  -o-box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.8);
+}
+.sideMenu {
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  height: calc(100vh - 3rem);
+  // , -moz-calc(100vh - 3rem), -ms-calc(100vh - 3rem), -webkit-calc(100vh - 3rem), -o-calc(100vh - 3rem);
+  overflow-y: scroll;
+}
+
+.video-link {
+  height: 193px;
+  width: 210px;
+  transform: scale(1); // ADDED - Fhelipe
+  -webkit-transform: scale(1); // ADDED - Fhelipe
+  -moz-transform: scale(1); // ADDED - Fhelipe
+  -ms-transform: scale(1); // ADDED - Fhelipe
+  -o-transform: scale(1); // ADDED - Fhelipe
+  transition: transform 0.5s ease; // ADDED - Fhelipe
+  @include modifier("wide") {
+    width: 100%;
+    max-width: 100%;
+    @include element("caption") {
+      width: 30%;
+      max-width: 30%;
+    }
+    @include element("image") {
+      height: 118px;
+      width: 210px;
+    }
+  }
+  @include element("image") {
+    height: 118px;
+    width: 210px;
+  }
+  @include element("time") {
+    background-color: rgba(0, 0, 0, 1);
+    padding-top: 3px;
+    height: 25px;
+    width: 40px;
+    text-align: center;
+    position: relative;
+    left: calc(100% - 40px);
+    // , -moz-calc(100% - 40px), -ms-calc(100% - 40px), -webkit-calc(100% - 40px), -o-calc(100% - 40px);
+    top: 50%;
+  }
+  @include element("caption") {
+    height: 75px;
+    width: 210px;
+    @include element("ad") {
+      border: 1px solid white;
+      padding: 1px 5px;
+      width: 2em;
+    }
+  }
+  &:hover {
+    // ADDED - Fhelipe
+    transform: scale(1);
+    transition: transform 0.3s ease;
+  }
+}
+
+.growreel-button {
+  background-image: url("/static/images/GrowReelLogoHorizontal.png");
+  background-repeat: no-repeat;
+  width: 20%;
+  height: 20%;
+  position: absolute;
+  right: 10px;
+  top: -15px;
+  background-size: contain;
+  background-position: center;
+}
+
+.blinking {
+  animation: blinkingText 1s infinite;
+}
+@keyframes blinkingText {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 100;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.notifications {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  margin-top: 20%;
+  z-index: 61;
+}

@@ -1,0 +1,106 @@
+/******MIXINS*******/
+// Block Element
+// @access public
+// @param {String} $element - Element's name
+@mixin element($element) {
+  &__#{$element} {
+    @content;
+  }
+}
+// Block Modifier
+// @access public
+// @param {String} $modifier - Modifier's name
+@mixin modifier($modifier) {
+  &--#{$modifier} {
+    @content;
+  }
+}
+
+$finalHeight: 100vw;
+$finalWidth: calc(100vw - 3rem);
+//  -moz-calc(100vw - 3rem), -ms-calc(100vw - 3rem), -webkit-calc(100vw - 3rem), -o-calc(100vw - 3rem);
+$wrapperLeft: calc(-100vh);
+//  -moz-calc(-100vh), -ms-calc(-100vh), -webkit-calc(-100vh), -o-calc(-100vh);
+// /********User Reel***********/
+.horizontal-scroll-wrapper {
+  z-index: 30;
+  position: absolute;
+  display: block;
+  left: $wrapperLeft;
+  width: 100vh;
+  margin: 0;
+  overflow-y: auto;
+  // overflow-x: hidden;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform-origin: right top;
+  -webkit-transform-origin: right top;
+  -moz-transform-origin: right top;
+  -ms-transform-origin: right top;
+  -o-transform-origin: right top;
+  & > div {
+    // display: block;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -moz-transform-origin: right top;
+    -ms-transform-origin: right top;
+    -o-transform-origin: right top;
+  }
+  // @include modifier("bggr") {
+  //   background-color: #000;
+  // }
+  & .video-link {
+    margin-top: 2rem;
+  }
+}
+.squares {
+  padding: $finalHeight 0 0 0;
+  & > div {
+    // padding-top: calc(193px - 7rem);
+    // , -moz-calc(193px - 7rem), -ms-calc(193px - 7rem), -webkit-calc(193px - 7rem), -o-calc(193px - 7rem);
+    // width: 100vh;
+    // height: 100vh;
+    display: -webkit-inline-box;
+  }
+}
+
+.reelFeaturedVideo {
+  top: 56px;
+  height: 100vh;
+  min-width: 100vw;
+  background-color: #000;
+  text-align: center;
+}
+
+.reelInfo {
+  width: 350px;
+  background-color: rgba(0, 0, 0, 0.5);
+  @include element("userImage") {
+    // width: 150px;
+    // height: 150px;
+  }
+  @include element("reelCategories") {
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+    padding-left: 1rem;
+  }
+  @include element("hr") {
+    margin-top: 20px;
+    width: 90%;
+    height: 1px;
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+    -ms-box-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+    -o-box-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+  }
+}

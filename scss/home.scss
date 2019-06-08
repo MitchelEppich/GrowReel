@@ -1,0 +1,214 @@
+/*******************************************/
+/*This is the main stylesheet***/
+/******************************************/
+
+@tailwind preflight;
+@tailwind utilities;
+
+/****SCROLLBAR*****/
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #38c172;
+}
+
+/******MIXINS*******/
+// Block Element
+// @access public
+// @param {String} $element - Element's name
+@mixin element($element) {
+  &__#{$element} {
+    @content;
+  }
+}
+// Block Modifier
+// @access public
+// @param {String} $modifier - Modifier's name
+@mixin modifier($modifier) {
+  &--#{$modifier} {
+    @content;
+  }
+}
+@mixin box-shadow($x, $y, $blur, $r, $color) {
+  -webkit-box-shadow: $x $y $blur $r $color;
+  -moz-box-shadow: $x $y $blur $r $color;
+  -ms-box-shadow: $x $y $blur $r $color;
+  -o-box-shadow: $x $y $blur $r $color;
+  box-shadow: $x $y $blur $r $color;
+}
+@mixin button-hover-setup() {
+  background-image: linear-gradient(#fff, #fff);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+@mixin button-hover-effect() {
+  background-size: 100% 100%;
+  color: #000;
+}
+
+/************************/
+// Fonts
+@font-face {
+  font-family: "lato-hairline";
+  src: url("../static/fonts/Lato1/lato-hairline-webfont.woff2") format("woff2"),
+    url("../static/fonts/Lato1/lato-hairline-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "lato-light";
+  src: url("../static/fonts/Lato2/lato-light-webfont.woff2") format("woff2"),
+    url("../static/fonts/Lato2/lato-light-webfont.woff") format("woff"),
+    url("../static/fonts/Lato2/lato-light-webfont.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/******TAGS*******/
+a {
+  text-decoration: none;
+  &:hover {
+    color: #4dc0b5;
+  }
+}
+body,
+html {
+  color: white;
+  height: 100%;
+  width: 100%;
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  overflow-x: hidden;
+  background-color: #000;
+  font-family: "lato-light", "lato-hairline", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+canvas {
+  margin: 0;
+  padding: 0;
+}
+
+i,
+svg {
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a {
+  font-family: "lato-light", "lato-hairline", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+button,
+[role="button"] {
+  cursor: pointer;
+  border: 1px solid white;
+  &:focus {
+    outline: 0;
+  }
+  @include button-hover-setup;
+  &:hover {
+    @include button-hover-effect;
+  }
+}
+.checkbox {
+  height: 14px;
+  width: 14px;
+  margin-right: 5px;
+  background-color: #eee;
+  // border-radius: 50%;
+  vertical-align: bottom;
+  &:checked {
+    background-color: #b8b8b8;
+  }
+}
+img {
+  max-width: 100%;
+}
+svg {
+  fill: currentColor;
+}
+textarea {
+  resize: vertical;
+}
+textarea[name="commentInput"] {
+  // ADDED Fhelipe
+  resize: none;
+}
+textarea[name="descriptionField"] {
+  resize: none;
+}
+textarea[name="descriptionOutput"] {
+  // ADDED Fhelipe
+  resize: none;
+}
+/************************/
+
+/******CLASSES*******/
+
+.ignore-css {
+  all: unset;
+}
+
+.img-error {
+  margin-top: 15%;
+}
+
+.title-message {
+  font-size: 50px;
+}
+
+.subtitle-message {
+  font-size: 23px;
+  padding: 5px;
+}
+
+.browsers-list {
+  display: inline-block;
+}
+
+.logo-browsers {
+  width: 100px;
+  height: auto;
+  margin: 20px;
+  text-align: center;
+}
+
+.browser-item {
+  width: 150px;
+  transform: scale(1);
+  transition: transform 0.5s ease;
+  display: inline-flex;
+}
+
+.browser-item:hover {
+  transform: scale(1.08);
+  transition: transform 0.5s ease;
+}

@@ -1,0 +1,142 @@
+// Video Control Bar
+.videoControlsBar {
+  position: absolute;
+  background-color: rgba(68, 68, 68, 0.95);
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.videoControlsBar svg:hover,
+.videoControlsBar select:hover {
+  color: #6bc793;
+}
+.videoControlsBar select {
+  color: white;
+  background-color: transparent;
+}
+.videoControlsBar select:focus {
+  background: rgba(87, 87, 87, 0.7);
+  outline: none !important;
+}
+.videoControlsBar select option {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+.dropdown {
+  bottom: 0;
+  margin-top: -3px;
+  cursor: pointer;
+}
+.horizontal-slider {
+  width: 100%;
+  height: 4px;
+  transition: all 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.horizontal-slider:hover {
+  height: 8px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  .handle {
+    width: 15px !important;
+    height: 15px !important;
+    margin-top: -3.5px;
+    margin-right: -7px;
+    transition: width 0.5s ease, height 0.5s ease;
+  }
+}
+.horizontal-slider .handle {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 100%;
+  margin-top: -2.5px;
+  margin-right: -5px;
+  float: right;
+  transition: width 0.5s ease, height 0.5s ease;
+}
+.horizontal-slider .bar {
+  height: 100%;
+}
+.horizontal-slider .bar-0 {
+  z-index: 1;
+  background-color: rgba(197, 0, 0, 0.6);
+}
+.horizontal-slider .bar-1 {
+  background-color: rgba(100, 0, 0, 1);
+  z-index: 0;
+  position: absolute;
+}
+.vertical-slider {
+  width: 4px;
+  height: 100px;
+}
+.vertical-slider .bar {
+  width: 100%;
+  background-color: rgba(87, 87, 87, 0.7);
+}
+.vertical-slider .bar-0 {
+  width: 100%;
+  background-color: rgba(197, 0, 0, 0.7);
+}
+.vertical-slider .handle {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 100%;
+  margin-left: -3px;
+}
+.muteBtn {
+  z-index: 10;
+  margin-bottom: 2px;
+  width: 20px;
+}
+.volumeSlider {
+  margin: -110px -21px 0 0;
+  width: 25px;
+  background-color: rgba(128, 128, 128, 0.75);
+  padding: 5px 0 5px 10px;
+  z-index: 10;
+  border-radius: 2px;
+}
+video::-webkit-media-controls {
+  display: none !important;
+}
+
+.checkbox-mature {
+  height: 20px;
+  width: 20px;
+  margin-right: 4px;
+  background-color: #ccc;
+  // border-radius: 50%;
+  vertical-align: text-top;
+}
+
+.checkbox-mature:checked {
+  background-color: #b8b8b8;
+}
+
+.icons-animation {
+  // ADDED - Fhelipe
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transition: transform 0.4s ease;
+}
+
+.icons-animation:hover {
+  // ADDED - Fhelipe
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  -o-transform: scale(1.03);
+  transition: transform 0.4s ease;
+  color: #4dc0b5;
+}
+
+.icons-animation:hover svg {
+  color: #4dc0b5;
+}

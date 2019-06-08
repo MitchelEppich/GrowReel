@@ -1,0 +1,24 @@
+Installing 'webpack-cli' (running 'yarn add -D webpack-cli')...
+yarn add v1.7.0
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info fsevents@1.2.4: The platform "win32" is incompatible with this module.
+info "fsevents@1.2.4" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 10 new dependencies.
+info Direct dependencies
+└─ webpack-cli@3.1.0
+info All dependencies
+├─ enhanced-resolve@4.1.0
+├─ global-modules-path@2.3.0
+├─ import-local@1.0.0
+├─ resolve-cwd@2.0.0
+├─ tslib@1.9.3
+├─ v8-compile-cache@2.0.2
+├─ webpack-cli@3.1.0
+├─ xregexp@4.0.0
+├─ yargs-parser@10.1.0
+└─ yargs@12.0.1
+Done in 45.67s.

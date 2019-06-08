@@ -1,0 +1,161 @@
+/******MIXINS*******/
+// Block Element
+// @access public
+// @param {String} $element - Element's name
+@mixin element($element) {
+  &__#{$element} {
+    @content;
+  }
+}
+// Block Modifier
+// @access public
+// @param {String} $modifier - Modifier's name
+@mixin modifier($modifier) {
+  &--#{$modifier} {
+    @content;
+  }
+}
+
+.br {
+  width: 0.75rem;
+  height: 0.75rem;
+  background: #fff;
+  border-radius: 0 0 99999999px 0;
+  -moz-border-radius: 0 0 99999999px 0;
+  -webkit-border-radius: 0 0 99999999px 0;
+  -ms-border-radius: 0 0 99999999px 0;
+  -o-border-radius: 0 0 99999999px 0;
+  cursor: pointer;
+  transform: scale(0.5);
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  @include modifier("expand") {
+    position: relative;
+    left: calc(50% + 26px);
+    // , -moz-calc(50% + 26px), -ms-calc(50% + 26px), -webkit-calc(50% + 26px), -o-calc(50% + 26px);
+    top: calc(50% + 60px);
+    // , -moz-calc(50% + 60px), -ms-calc(50% + 60px), -webkit-calc(50% + 60px), -o-calc(50% + 60px);
+    transform: scale(10);
+    -webkit-transform: scale(10);
+    -moz-transform: scale(10);
+    -ms-transform: scale(10);
+    -o-transform: scale(10);
+    background: rgba(250, 250, 250, 0.2);
+    &:hover {
+      background: #fff;
+    }
+  }
+}
+.bl {
+  width: 0.75rem;
+  height: 0.75rem;
+  background: #fff;
+  border-radius: 0 0 0 99999999px;
+  -moz-border-radius: 0 0 0 99999999px;
+  -webkit-border-radius: 0 0 0 99999999px;
+  -ms-border-radius: 0 0 0 99999999px;
+  -o-border-radius: 0 0 0 99999999px;
+  cursor: pointer;
+  transform: scale(0.5);
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  @include modifier("expand") {
+    position: relative;
+    left: calc(50% - 94px);
+    // , -moz-calc(50% - 94px), -ms-calc(50% - 94px), -webkit-calc(50% - 94px), -o-calc(50% - 94px);
+    top: calc(50% + 60px);
+    // , -moz-calc(50% + 60px), -ms-calc(50% + 60px), -webkit-calc(50% + 60px), -o-calc(50% + 60px);
+    transform: scale(10);
+    -webkit-transform: scale(10);
+    -moz-transform: scale(10);
+    -ms-transform: scale(10);
+    -o-transform: scale(10);
+    background: rgba(250, 250, 250, 0.2);
+    &:hover {
+      background: #fff;
+    }
+  }
+}
+.tr {
+  width: 0.75rem;
+  height: 0.75rem;
+  background: #fff;
+  border-radius: 0 99999999px 0 0;
+  -moz-border-radius: 0 99999999px 0 0;
+  -webkit-border-radius: 0 99999999px 0 0;
+  -ms-border-radius: 0 99999999px 0 0;
+  -o-border-radius: 0 99999999px 0 0;
+  cursor: pointer;
+  transform: scale(0.5);
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  @include modifier("expand") {
+    position: relative;
+    left: calc(50% + 50px);
+    //  -moz-calc(50% + 50px), -ms-calc(50% + 50px), -webkit-calc(50% + 50px), -o-calc(50% + 50px);
+    top: calc(50% - 70px);
+    //  -moz-calc(50% - 70px), -ms-calc(50% - 70px), -webkit-calc(50% - 70px), -o-calc(50% - 70px);
+    transform: scale(10);
+    -webkit-transform: scale(10);
+    -moz-transform: scale(10);
+    -ms-transform: scale(10);
+    -o-transform: scale(10);
+    background: rgba(250, 250, 250, 0.2);
+    &:hover {
+      background: #fff;
+    }
+  }
+}
+.tl {
+  width: 0.75rem;
+  height: 0.75rem;
+  background: #fff;
+  border-radius: 99999999px 0 0 0;
+  -moz-border-radius: 99999999px 0 0 0;
+  -webkit-border-radius: 99999999px 0 0 0;
+  -ms-border-radius: 99999999px 0 0 0;
+  -o-border-radius: 99999999px 0 0 0;
+  cursor: pointer;
+  transform: scale(0.5);
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  @include modifier("expand") {
+    position: relative;
+    left: calc(50% - 70px);
+    //  -moz-calc(50% - 70px), -ms-calc(50% - 70px), -webkit-calc(50% - 70px), -o-calc(50% - 70px);
+    top: calc(50% - 70px);
+    //  -moz-calc(50% - 70px), -ms-calc(50% - 70px), -webkit-calc(50% - 70px), -o-calc(50% - 70px);
+    transform: scale(10);
+    -webkit-transform: scale(10);
+    -moz-transform: scale(10);
+    -ms-transform: scale(10);
+    -o-transform: scale(10);
+    background: rgba(250, 250, 250, 0.2);
+    &:hover {
+      background: #fff;
+    }
+  }
+}
+
+.circleControl {
+  position: relative;
+  cursor: pointer;
+  &:hover {
+    background: #4dc0b5;
+  }
+  @include modifier("show") {
+    width: 100%;
+    height: 100%;
+    &:hover {
+      background: rgba(0, 0, 0, 0.9);
+    }
+  }
+}

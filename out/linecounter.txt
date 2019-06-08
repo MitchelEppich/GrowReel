@@ -1,0 +1,347 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.2
+-------------------------------------------------------------------------------
+count time : 2019-02-01 10:26:34
+count workspace : c:\Users\mitch\_WorkDemo\growreel
+total files : 319
+total code lines : 110226
+total comment lines : 12931
+total blank lines : 19391
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |               |           3360|              4|              6|    3.0|
+   |          .json|            267|              0|              1|   0.24|
+   |            .js|          68309|          12561|           8367|     62|
+   |          .lock|           7030|              0|           1575|    6.4|
+   |           .map|             39|              0|              0|  0.035|
+   |          .scss|            966|             67|             87|   0.88|
+   |           .txt|            335|              7|            157|   0.30|
+   |          .cert|            156|              3|              0|   0.14|
+   |           .key|             28|              0|              0|  0.025|
+   |          .html|           1010|              0|            230|   0.92|
+   |            .md|             62|              8|             22|  0.056|
+   |           .css|          28664|            281|           8946|     26|
+   -------------------------------------------------------------------------
+.babelrc, code is 23, comment is 0, blank is 0.
+.data\.gitkeep, code is 0, comment is 0, blank is 0.
+.env, code is 16, comment is 1, blank is 2.
+.gitignore, code is 3, comment is 3, blank is 0.
+.next\0.cccf7a98dc63b582fbf3.hot-update.js, code is 2391, comment is 162, blank is 107.
+.next\0.cccf7a98dc63b582fbf3.hot-update.js.map, code is 1, comment is 0, blank is 0.
+.next\1.cccf7a98dc63b582fbf3.hot-update.js, code is 2, comment is 1, blank is 1.
+.next\1.cccf7a98dc63b582fbf3.hot-update.js.map, code is 1, comment is 0, blank is 0.
+.next\5.7446d6d7be9cbd835b85.hot-update.js, code is 1, comment is 1, blank is 0.
+.next\5.7446d6d7be9cbd835b85.hot-update.js.map, code is 1, comment is 0, blank is 0.
+.next\7446d6d7be9cbd835b85.hot-update.json, code is 1, comment is 0, blank is 0.
+.next\asset-manifest.json, code is 18, comment is 0, blank is 0.
+.next\build-manifest.json, code is 1, comment is 0, blank is 0.
+.next\bundles\pages\_app.js, code is 3571, comment is 379, blank is 302.
+.next\bundles\pages\_app.js.map, code is 1, comment is 0, blank is 0.
+.next\bundles\pages\_document.js, code is 5, comment is 1, blank is 1.
+.next\bundles\pages\_document.js.map, code is 1, comment is 0, blank is 0.
+.next\bundles\pages\_error.js, code is 5, comment is 1, blank is 1.
+.next\bundles\pages\_error.js.map, code is 1, comment is 0, blank is 0.
+.next\bundles\pages\index.js, code is 19087, comment is 3304, blank is 3088.
+.next\bundles\pages\index.js.map, code is 1, comment is 0, blank is 0.
+.next\cccf7a98dc63b582fbf3.hot-update.json, code is 1, comment is 0, blank is 0.
+.next\icon_128x128.png, it is a binary file.
+.next\icon_192x192.png, it is a binary file.
+.next\icon_256x256.png, it is a binary file.
+.next\icon_384x384.png, it is a binary file.
+.next\icon_512x512.png, it is a binary file.
+.next\icon_96x96.png, it is a binary file.
+.next\server\bundles\pages\_app.js, code is 2096, comment is 91, blank is 27.
+.next\server\bundles\pages\_app.js.map, code is 1, comment is 0, blank is 0.
+.next\server\bundles\pages\_document.js, code is 56, comment is 74, blank is 5.
+.next\server\bundles\pages\_document.js.map, code is 1, comment is 0, blank is 0.
+.next\server\bundles\pages\_error.js, code is 56, comment is 74, blank is 5.
+.next\server\bundles\pages\_error.js.map, code is 1, comment is 0, blank is 0.
+.next\server\bundles\pages\index.js, code is 5138, comment is 214, blank is 245.
+.next\server\bundles\pages\index.js.map, code is 1, comment is 0, blank is 0.
+.next\server\pages-manifest.json, code is 1, comment is 0, blank is 0.
+.next\static\2ca4c7030498a644948cd5b88b774ac9.woff, it is a binary file.
+.next\static\332044bd47811796240ce7535e3d0b03.woff, it is a binary file.
+.next\static\commons\main.js, code is 13299, comment is 2774, blank is 1875.
+.next\static\commons\main.js.map, code is 1, comment is 0, blank is 0.
+.next\static\commons\manifest.js, code is 345, comment is 438, blank is 51.
+.next\static\commons\manifest.js.map, code is 1, comment is 0, blank is 0.
+.next\static\dad89ac6fa93d2047566337a7ed4104b.woff2, it is a binary file.
+.next\static\f57c4e19e38cd7f03fa5568161bbc056.ttf, it is a binary file.
+.next\static\fa4aee7991a5d2745cfb874b5db0dba0.woff2, it is a binary file.
+.next\static\manifest.json, code is 10, comment is 0, blank is 0.
+.next\static\style.css, code is 27820, comment is 237, blank is 8760.
+.next\static\style.css.map, code is 1, comment is 0, blank is 0.
+.vs\slnx.sqlite, it is a binary file.
+build\cert\growreel.com.key, code is 28, comment is 0, blank is 0.
+build\cert\INTER.cert, code is 25, comment is 1, blank is 0.
+build\cert\PKCS7.cert, code is 76, comment is 1, blank is 0.
+build\cert\ROOT.cert, code is 21, comment is 1, blank is 0.
+build\cert\X509.cert, code is 34, comment is 0, blank is 0.
+components\AuthForm\index.js, code is 21, comment is 3, blank is 3.
+components\Comments\Comment.js, code is 315, comment is 6, blank is 5.
+components\Comments\Comments.js, code is 116, comment is 7, blank is 5.
+components\DimScreen.js, code is 46, comment is 5, blank is 4.
+components\HelpForm\HelpPopDown.js, code is 41, comment is 10, blank is 5.
+components\HelpForm\index.js, code is 167, comment is 3, blank is 5.
+components\Home\AdBar.js, code is 15, comment is 3, blank is 3.
+components\Home\BookmarkPopup.js, code is 20, comment is 0, blank is 2.
+components\Home\Heading.js, code is 9, comment is 4, blank is 2.
+components\Home\index.js, code is 51, comment is 7, blank is 10.
+components\InputTag\index.js, code is 39, comment is 3, blank is 4.
+components\InputTag\Tag.js, code is 27, comment is 0, blank is 8.
+components\Messages\index.js, code is 105, comment is 5, blank is 19.
+components\Navbar\AuthButton.js, code is 15, comment is 5, blank is 4.
+components\Navbar\Bars.js, code is 36, comment is 4, blank is 3.
+components\Navbar\BugButton.js, code is 26, comment is 0, blank is 3.
+components\Navbar\LiveButton.js, code is 28, comment is 0, blank is 3.
+components\Navbar\LogoutButton.js, code is 15, comment is 4, blank is 4.
+components\Navbar\Navbar.js, code is 90, comment is 5, blank is 6.
+components\Navbar\NotificationButton.js, code is 41, comment is 4, blank is 3.
+components\Navbar\SearchBar.js, code is 68, comment is 4, blank is 5.
+components\Navbar\SideMenu.js, code is 249, comment is 24, blank is 6.
+components\Navbar\UploadButton.js, code is 38, comment is 4, blank is 3.
+components\Navbar\UserReelButton.js, code is 84, comment is 6, blank is 5.
+components\NotSupported\index.js, code is 71, comment is 0, blank is 3.
+components\NoUser\index.js, code is 22, comment is 0, blank is 3.
+components\NoVideo\index.js, code is 22, comment is 0, blank is 3.
+components\Offline\index.js, code is 22, comment is 0, blank is 3.
+components\PasswordReset\index.js, code is 90, comment is 0, blank is 6.
+components\Reel\index.js, code is 784, comment is 8, blank is 22.
+components\Reel\MobileReel.js, code is 442, comment is 58, blank is 9.
+components\ReportForm\index.js, code is 64, comment is 28, blank is 4.
+components\Search\index.js, code is 377, comment is 50, blank is 11.
+components\SettingsForm\index.js, code is 114, comment is 9, blank is 8.
+components\UploadForm\index.js, code is 128, comment is 4, blank is 6.
+components\UploadForm\UploadSummary.js, code is 30, comment is 4, blank is 6.
+components\Utilities\nuka-carousel\CHANGELOG.md, code is 12, comment is 6, blank is 4.
+components\Utilities\nuka-carousel\es\all-transitions.js, code is 6, comment is 0, blank is 0.
+components\Utilities\nuka-carousel\es\announce-slide.js, code is 19, comment is 0, blank is 2.
+components\Utilities\nuka-carousel\es\default-controls.js, code is 146, comment is 3, blank is 26.
+components\Utilities\nuka-carousel\es\index.js, code is 903, comment is 13, blank is 103.
+components\Utilities\nuka-carousel\es\transitions\fade-transition.js, code is 153, comment is 4, blank is 25.
+components\Utilities\nuka-carousel\es\transitions\scroll-transition.js, code is 288, comment is 2, blank is 23.
+components\Utilities\nuka-carousel\es\utilities.js, code is 55, comment is 0, blank is 5.
+components\Utilities\nuka-carousel\es\utilities\bootstrapping-utilities.js, code is 62, comment is 4, blank is 12.
+components\Utilities\nuka-carousel\es\utilities\style-utilities.js, code is 145, comment is 0, blank is 9.
+components\Utilities\nuka-carousel\es\utilities\utilities.js, code is 137, comment is 0, blank is 19.
+components\Utilities\nuka-carousel\index.js, code is 2, comment is 0, blank is 0.
+components\Utilities\nuka-carousel\lib\all-transitions.js, code is 13, comment is 0, blank is 5.
+components\Utilities\nuka-carousel\lib\announce-slide.js, code is 26, comment is 0, blank is 5.
+components\Utilities\nuka-carousel\lib\default-controls.js, code is 155, comment is 3, blank is 34.
+components\Utilities\nuka-carousel\lib\index.js, code is 927, comment is 13, blank is 117.
+components\Utilities\nuka-carousel\lib\transitions\fade-transition.js, code is 159, comment is 4, blank is 29.
+components\Utilities\nuka-carousel\lib\transitions\scroll-transition.js, code is 174, comment is 1, blank is 29.
+components\Utilities\nuka-carousel\lib\utilities.js, code is 64, comment is 0, blank is 14.
+components\Utilities\nuka-carousel\lib\utilities\bootstrapping-utilities.js, code is 71, comment is 4, blank is 20.
+components\Utilities\nuka-carousel\lib\utilities\style-utilities.js, code is 155, comment is 0, blank is 20.
+components\Utilities\nuka-carousel\lib\utilities\utilities.js, code is 150, comment is 0, blank is 36.
+components\Utilities\nuka-carousel\LICENSE, code is 16, comment is 0, blank is 4.
+components\Utilities\nuka-carousel\package.json, code is 92, comment is 0, blank is 1.
+components\Utilities\nuka-carousel\README.md, code is 50, comment is 2, blank is 18.
+components\Utilities\ShowMore\index.js, code is 45, comment is 1, blank is 3.
+components\Utilities\Slider\index.js, code is 688, comment is 115, blank is 143.
+components\Videos\ControlBar.js, code is 186, comment is 12, blank is 13.
+components\Videos\Video.js, code is 421, comment is 12, blank is 36.
+components\Videos\VideoCarousel.js, code is 78, comment is 5, blank is 4.
+components\Videos\VideoPlayer.js, code is 1052, comment is 63, blank is 37.
+components\Videos\VideoThumbnail.js, code is 234, comment is 11, blank is 15.
+HOC\Layout.js, code is 349, comment is 23, blank is 10.
+lib\initApollo.js, code is 64, comment is 29, blank is 13.
+lib\withData.js, code is 68, comment is 12, blank is 9.
+mongo, code is 0, comment is 0, blank is 0.
+mongod, code is 1, comment is 0, blank is 0.
+next.config.js, code is 65, comment is 24, blank is 6.
+nodemon.json, code is 6, comment is 0, blank is 0.
+package.json, code is 113, comment is 0, blank is 0.
+pages\404.js, code is 33, comment is 0, blank is 5.
+pages\_app.js, code is 42, comment is 7, blank is 7.
+pages\_document.js, code is 78, comment is 0, blank is 3.
+pages\agreement.js, code is 149, comment is 4, blank is 5.
+pages\cookies_policy.js, code is 228, comment is 10, blank is 32.
+pages\copyright_notice.js, code is 48, comment is 0, blank is 6.
+pages\index.js, code is 181, comment is 20, blank is 17.
+pages\privacy_policy.js, code is 113, comment is 1, blank is 13.
+pages\terms.js, code is 236, comment is 0, blank is 25.
+pages\terms_dataprocessing.js, code is 838, comment is 0, blank is 97.
+postcss.config.js, code is 7, comment is 0, blank is 0.
+registerServiceWorker.js, code is 27, comment is 15, blank is 4.
+routes\index.js, code is 6, comment is 0, blank is 2.
+scss\home.scss, code is 966, comment is 67, blank is 87.
+scss\search.scss, code is 0, comment is 0, blank is 0.
+scss\showVideo.scss, code is 0, comment is 0, blank is 0.
+scss\uploader.scss, code is 0, comment is 0, blank is 0.
+scss\userDashboard.scss, code is 0, comment is 0, blank is 0.
+server\data\emails\index.js, code is 4, comment is 0, blank is 1.
+server\data\emails\passwordReset.js, code is 39, comment is 68, blank is 19.
+server\data\emails\welcome.js, code is 17, comment is 22, blank is 1.
+server\data\resolvers\ActivityRecord.js, code is 35, comment is 0, blank is 8.
+server\data\resolvers\Comment.js, code is 116, comment is 9, blank is 13.
+server\data\resolvers\EmailRequest.js, code is 24, comment is 0, blank is 6.
+server\data\resolvers\functions.js, code is 262, comment is 17, blank is 29.
+server\data\resolvers\Global.js, code is 94, comment is 0, blank is 17.
+server\data\resolvers\HistoryElement.js, code is 35, comment is 1, blank is 9.
+server\data\resolvers\index.js, code is 101, comment is 4, blank is 15.
+server\data\resolvers\List.js, code is 33, comment is 1, blank is 9.
+server\data\resolvers\Messages.js, code is 65, comment is 0, blank is 12.
+server\data\resolvers\Report.js, code is 24, comment is 0, blank is 6.
+server\data\resolvers\S3.js, code is 77, comment is 5, blank is 16.
+server\data\resolvers\User.js, code is 119, comment is 17, blank is 21.
+server\data\resolvers\Video.js, code is 122, comment is 4, blank is 13.
+server\data\schema.js, code is 305, comment is 0, blank is 31.
+server\index.js, code is 157, comment is 15, blank is 18.
+server\models\ActivityRecord.js, code is 10, comment is 4, blank is 4.
+server\models\Comment.js, code is 36, comment is 12, blank is 4.
+server\models\EmailRequest.js, code is 8, comment is 4, blank is 4.
+server\models\Global.js, code is 19, comment is 4, blank is 4.
+server\models\HistoryElement.js, code is 14, comment is 4, blank is 4.
+server\models\index.js, code is 28, comment is 0, blank is 3.
+server\models\List.js, code is 19, comment is 4, blank is 4.
+server\models\Report.js, code is 7, comment is 4, blank is 4.
+server\models\User.js, code is 97, comment is 14, blank is 14.
+server\models\Video.js, code is 46, comment is 13, blank is 5.
+server\robots.txt, code is 2, comment is 0, blank is 0.
+static\agreements\cookies.txt, code is 27, comment is 2, blank is 15.
+static\agreements\copyright_notice.txt, code is 15, comment is 0, blank is 4.
+static\agreements\eula.txt, code is 27, comment is 4, blank is 5.
+static\agreements\privacy.txt, code is 36, comment is 1, blank is 12.
+static\agreements\terms.txt, code is 43, comment is 0, blank is 24.
+static\agreements\terms_dataprocessing.txt, code is 177, comment is 0, blank is 95.
+static\default\avatar\avatar_01.png, it is a binary file.
+static\default\avatar\avatar_02.png, it is a binary file.
+static\default\avatar\avatar_03.png, it is a binary file.
+static\default\avatar\avatar_04.png, it is a binary file.
+static\default\avatar\avatar_05.png, it is a binary file.
+static\default\avatar\avatar_06.png, it is a binary file.
+static\default\avatar\avatar_07.png, it is a binary file.
+static\default\avatar\avatar_08.png, it is a binary file.
+static\default\avatar\avatar_09.png, it is a binary file.
+static\default\avatar\avatar_10.png, it is a binary file.
+static\default\thumbnail\video_thumbnail.jpg, it is a binary file.
+static\favicon.ico, it is a binary file.
+static\fonts\Lato1\generator_config.txt, code is 4, comment is 0, blank is 1.
+static\fonts\Lato1\lato-hairline-demo.html, code is 489, comment is 0, blank is 115.
+static\fonts\Lato1\lato-hairline-webfont.woff, it is a binary file.
+static\fonts\Lato1\lato-hairline-webfont.woff2, it is a binary file.
+static\fonts\Lato1\specimen_files\grid_12-825-55-15.css, code is 95, comment is 10, blank is 24.
+static\fonts\Lato1\specimen_files\specimen_stylesheet.css, code is 320, comment is 11, blank is 65.
+static\fonts\Lato1\stylesheet.css, code is 7, comment is 1, blank is 4.
+static\fonts\Lato2\generator_config.txt, code is 4, comment is 0, blank is 1.
+static\fonts\Lato2\lato-light-demo.html, code is 489, comment is 0, blank is 115.
+static\fonts\Lato2\lato-light-webfont.ttf, it is a binary file.
+static\fonts\Lato2\lato-light-webfont.woff, it is a binary file.
+static\fonts\Lato2\lato-light-webfont.woff2, it is a binary file.
+static\fonts\Lato2\specimen_files\grid_12-825-55-15.css, code is 95, comment is 10, blank is 24.
+static\fonts\Lato2\specimen_files\specimen_stylesheet.css, code is 320, comment is 11, blank is 65.
+static\fonts\Lato2\stylesheet.css, code is 7, comment is 1, blank is 4.
+static\handlers\nouser.html, code is 18, comment is 0, blank is 0.
+static\handlers\novideopage.html, code is 14, comment is 0, blank is 0.
+static\icons\192px_icon.png, it is a binary file.
+static\icons\512px_icon.png, it is a binary file.
+static\images\backgrounds\background_01.jpg, it is a binary file.
+static\images\backgrounds\background_02.jpg, it is a binary file.
+static\images\backgrounds\background_03.jpg, it is a binary file.
+static\images\backgrounds\background_04.jpg, it is a binary file.
+static\images\backgrounds\background_05.jpg, it is a binary file.
+static\images\backgrounds\background_06.jpg, it is a binary file.
+static\images\browser_icons\logo-chrome.png, it is a binary file.
+static\images\browser_icons\logo-firefox.png, it is a binary file.
+static\images\browser_icons\logo-opera.png, it is a binary file.
+static\images\browser_icons\logo-safari.png, it is a binary file.
+static\images\css-loader\FullLeaf.png, it is a binary file.
+static\images\GrowReelLogoGrey.png, it is a binary file.
+static\images\GrowReelLogoHorizontal.png, it is a binary file.
+static\videos\Default_Ad_Video.mp4, it is a binary file.
+static\workbox\next-precache-manifest-492c5b73505e07d4a3e6de585762c41a.js, code is 1, comment is 0, blank is 0.
+static\workbox\next-precache-manifest-bf67a47b52a4a283a3b0760e8822d6a7.js, code is 1, comment is 0, blank is 0.
+static\workbox\sw.js, code is 61, comment is 17, blank is 4.
+static\workbox\workbox-v3.6.3\workbox-background-sync.dev.js, code is 236, comment is 299, blank is 60.
+static\workbox\workbox-v3.6.3\workbox-background-sync.dev.js.map, code is 1, comment is 0, blank is 0.
+static\workbox\workbox-v3.6.3\workbox-background-sync.prod.js, code is 1, comment is 1, blank is 1.
+static\workbox\workbox-v3.6.3\workbox-background-sync.prod.js.map, code is 1, comment is 0, blank is 0.
+static\workbox\workbox-v3.6.3\workbox-broadcast-cache-update.dev.js, code is 133, comment is 233, blank is 30.
+static\workbox\workbox-v3.6.3\workbox-broadcast-cache-update.dev.js.map, code is 1, comment is 0, blank is 0.
+static\workbox\workbox-v3.6.3\workbox-broadcast-cache-update.prod.js, code is 1, comment is 1, blank is 1.
+static\workbox\workbox-v3.6.3\workbox-broadcast-cache-update.prod.js.map, code is 1, comment is 0, blank is 0.
+static\workbox\workbox-v3.6.3\workbox-cache-expiration.dev.js, code is 346, comment is 306, blank is 89.
+static\workbox\workbox-v3.6.3\workbox-cache-expiration.dev.js.map, code is 1, comment is 0, blank is 0.
+static\workbox\workbox-v3.6.3\workbox-cache-expiration.prod.js, code is 1, comment is 1, blank is 1.
+static\workbox\workbox-v3.6.3\workbox-cache-expiration.prod.js.map, code is 1, comment is 0, blank is 0.
+static\workbox\workbox-v3.6.3\workbox-cacheable-response.dev.js, code is 94, comment is 117, blank is 26.
+static\workbox\workbox-v3.6.3\workbox-cacheable-response.dev.js.map, code is 1, comment is 0, blank is 0.
+static\workbox\workbox-v3.6.3\workbox-cacheable-response.prod.js, code is 1, comment is 1, blank is 1.
+static\workbox\workbox-v3.6.3\workbox-cacheable-response.prod.js.map, code is 1, comment is 0, blank is 0.
+static\workbox\workbox-v3.6.3\workbox-core.dev.js, code is 814, comment is 558, blank is 156.
+static\workbox\workbox-v3.6.3\workbox-core.dev.js.map, code is 1, comment is 0, blank is 0.
+static\workbox\workbox-v3.6.3\workbox-core.prod.js, code is 1, comment is 1, blank is 1.
+static\workbox\workbox-v3.6.3\workbox-core.prod.js.map, code is 1, comment is 0, blank is 0.
+static\workbox\workbox-v3.6.3\workbox-google-analytics.dev.js, code is 106, comment is 117, blank is 34.
+static\workbox\workbox-v3.6.3\workbox-google-analytics.dev.js.map, code is 1, comment is 0, blank is 0.
+static\workbox\workbox-v3.6.3\workbox-google-analytics.prod.js, code is 1, comment is 1, blank is 1.
+static\workbox\workbox-v3.6.3\workbox-google-analytics.prod.js.map, code is 1, comment is 0, blank is 0.
+static\workbox\workbox-v3.6.3\workbox-navigation-preload.dev.js, code is 47, comment is 99, blank is 14.
+static\workbox\workbox-v3.6.3\workbox-navigation-preload.dev.js.map, code is 1, comment is 0, blank is 0.
+static\workbox\workbox-v3.6.3\workbox-navigation-preload.prod.js, code is 1, comment is 1, blank is 1.
+static\workbox\workbox-v3.6.3\workbox-navigation-preload.prod.js.map, code is 1, comment is 0, blank is 0.
+static\workbox\workbox-v3.6.3\workbox-precaching.dev.js, code is 518, comment is 519, blank is 136.
+static\workbox\workbox-v3.6.3\workbox-precaching.dev.js.map, code is 1, comment is 0, blank is 0.
+static\workbox\workbox-v3.6.3\workbox-precaching.prod.js, code is 1, comment is 1, blank is 1.
+static\workbox\workbox-v3.6.3\workbox-precaching.prod.js.map, code is 1, comment is 0, blank is 0.
+static\workbox\workbox-v3.6.3\workbox-range-requests.dev.js, code is 128, comment is 138, blank is 34.
+static\workbox\workbox-v3.6.3\workbox-range-requests.dev.js.map, code is 1, comment is 0, blank is 0.
+static\workbox\workbox-v3.6.3\workbox-range-requests.prod.js, code is 1, comment is 1, blank is 1.
+static\workbox\workbox-v3.6.3\workbox-range-requests.prod.js.map, code is 1, comment is 0, blank is 0.
+static\workbox\workbox-v3.6.3\workbox-routing.dev.js, code is 293, comment is 321, blank is 63.
+static\workbox\workbox-v3.6.3\workbox-routing.dev.js.map, code is 1, comment is 0, blank is 0.
+static\workbox\workbox-v3.6.3\workbox-routing.prod.js, code is 1, comment is 1, blank is 1.
+static\workbox\workbox-v3.6.3\workbox-routing.prod.js.map, code is 1, comment is 0, blank is 0.
+static\workbox\workbox-v3.6.3\workbox-strategies.dev.js, code is 570, comment is 485, blank is 118.
+static\workbox\workbox-v3.6.3\workbox-strategies.dev.js.map, code is 1, comment is 0, blank is 0.
+static\workbox\workbox-v3.6.3\workbox-strategies.prod.js, code is 1, comment is 1, blank is 1.
+static\workbox\workbox-v3.6.3\workbox-strategies.prod.js.map, code is 1, comment is 0, blank is 0.
+static\workbox\workbox-v3.6.3\workbox-streams.dev.js, code is 139, comment is 191, blank is 37.
+static\workbox\workbox-v3.6.3\workbox-streams.dev.js.map, code is 1, comment is 0, blank is 0.
+static\workbox\workbox-v3.6.3\workbox-streams.prod.js, code is 1, comment is 1, blank is 1.
+static\workbox\workbox-v3.6.3\workbox-streams.prod.js.map, code is 1, comment is 0, blank is 0.
+static\workbox\workbox-v3.6.3\workbox-sw.js, code is 1, comment is 1, blank is 1.
+static\workbox\workbox-v3.6.3\workbox-sw.js.map, code is 1, comment is 0, blank is 0.
+stats.json, code is 24, comment is 0, blank is 0.
+store\actions\Ads.js, code is 25, comment is 2, blank is 5.
+store\actions\Comment.js, code is 331, comment is 6, blank is 17.
+store\actions\EmailRequest.js, code is 68, comment is 6, blank is 7.
+store\actions\Global.js, code is 104, comment is 7, blank is 14.
+store\actions\HistoryElement.js, code is 51, comment is 7, blank is 7.
+store\actions\Image.js, code is 103, comment is 10, blank is 17.
+store\actions\index.js, code is 184, comment is 15, blank is 10.
+store\actions\List.js, code is 179, comment is 5, blank is 8.
+store\actions\Messages.js, code is 112, comment is 6, blank is 12.
+store\actions\Reel.js, code is 203, comment is 4, blank is 8.
+store\actions\Report.js, code is 56, comment is 7, blank is 9.
+store\actions\Search.js, code is 134, comment is 6, blank is 12.
+store\actions\Uploader.js, code is 83, comment is 6, blank is 5.
+store\actions\User.js, code is 412, comment is 11, blank is 21.
+store\actions\Video.js, code is 697, comment is 30, blank is 36.
+store\DevTools.js, code is 13, comment is 7, blank is 3.
+store\index.js, code is 19, comment is 10, blank is 2.
+store\middleware\index.js, code is 33, comment is 22, blank is 4.
+store\reducer\Comment.js, code is 34, comment is 0, blank is 2.
+store\reducer\EmailRequest.js, code is 13, comment is 0, blank is 2.
+store\reducer\Global.js, code is 13, comment is 0, blank is 2.
+store\reducer\HistoryElement.js, code is 11, comment is 0, blank is 2.
+store\reducer\Image.js, code is 11, comment is 4, blank is 3.
+store\reducer\index.js, code is 196, comment is 7, blank is 4.
+store\reducer\List.js, code is 54, comment is 9, blank is 4.
+store\reducer\Messages.js, code is 17, comment is 5, blank is 3.
+store\reducer\Reel.js, code is 116, comment is 3, blank is 2.
+store\reducer\Report.js, code is 15, comment is 0, blank is 2.
+store\reducer\Search.js, code is 33, comment is 0, blank is 3.
+store\reducer\Uploader.js, code is 58, comment is 0, blank is 2.
+store\reducer\User.js, code is 41, comment is 4, blank is 4.
+store\reducer\Video.js, code is 147, comment is 29, blank is 5.
+store\utility.js, code is 6, comment is 5, blank is 1.
+tailwind.js, code is 398, comment is 483, blank is 71.
+versions, code is 3301, comment is 0, blank is 0.
+yarn.lock, code is 7030, comment is 0, blank is 1575.
+===============================================================================

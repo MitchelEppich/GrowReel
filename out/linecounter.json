@@ -1,0 +1,2038 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.2",
+    "workspace": "c:\\Users\\mitch\\_WorkDemo\\growreel",
+    "linecount": [
+        {
+            "version": "0.2.2",
+            "counttime": "2019-02-01 10:26:34",
+            "filesum": 319,
+            "codesum": 110226,
+            "commentsum": 12931,
+            "blanksum": 19391,
+            "statistics": {
+                "": {
+                    "code": 3360,
+                    "comment": 4,
+                    "blank": 6
+                },
+                ".json": {
+                    "code": 267,
+                    "comment": 0,
+                    "blank": 1
+                },
+                ".js": {
+                    "code": 68309,
+                    "comment": 12561,
+                    "blank": 8367
+                },
+                ".lock": {
+                    "code": 7030,
+                    "comment": 0,
+                    "blank": 1575
+                },
+                ".map": {
+                    "code": 39,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".scss": {
+                    "code": 966,
+                    "comment": 67,
+                    "blank": 87
+                },
+                ".txt": {
+                    "code": 335,
+                    "comment": 7,
+                    "blank": 157
+                },
+                ".cert": {
+                    "code": 156,
+                    "comment": 3,
+                    "blank": 0
+                },
+                ".key": {
+                    "code": 28,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".html": {
+                    "code": 1010,
+                    "comment": 0,
+                    "blank": 230
+                },
+                ".md": {
+                    "code": 62,
+                    "comment": 8,
+                    "blank": 22
+                },
+                ".css": {
+                    "code": 28664,
+                    "comment": 281,
+                    "blank": 8946
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": ".babelrc"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": ".data\\.gitkeep"
+                },
+                {
+                    "blank": 2,
+                    "code": 16,
+                    "comment": 1,
+                    "filename": ".env"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 3,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 107,
+                    "code": 2391,
+                    "comment": 162,
+                    "filename": ".next\\0.cccf7a98dc63b582fbf3.hot-update.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".next\\0.cccf7a98dc63b582fbf3.hot-update.js.map"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 1,
+                    "filename": ".next\\1.cccf7a98dc63b582fbf3.hot-update.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".next\\1.cccf7a98dc63b582fbf3.hot-update.js.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": ".next\\5.7446d6d7be9cbd835b85.hot-update.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".next\\5.7446d6d7be9cbd835b85.hot-update.js.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".next\\7446d6d7be9cbd835b85.hot-update.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": ".next\\asset-manifest.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".next\\build-manifest.json"
+                },
+                {
+                    "blank": 302,
+                    "code": 3571,
+                    "comment": 379,
+                    "filename": ".next\\bundles\\pages\\_app.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".next\\bundles\\pages\\_app.js.map"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 1,
+                    "filename": ".next\\bundles\\pages\\_document.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".next\\bundles\\pages\\_document.js.map"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 1,
+                    "filename": ".next\\bundles\\pages\\_error.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".next\\bundles\\pages\\_error.js.map"
+                },
+                {
+                    "blank": 3088,
+                    "code": 19087,
+                    "comment": 3304,
+                    "filename": ".next\\bundles\\pages\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".next\\bundles\\pages\\index.js.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".next\\cccf7a98dc63b582fbf3.hot-update.json"
+                },
+                {
+                    "filename": ".next\\icon_128x128.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".next\\icon_192x192.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".next\\icon_256x256.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".next\\icon_384x384.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".next\\icon_512x512.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".next\\icon_96x96.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 27,
+                    "code": 2096,
+                    "comment": 91,
+                    "filename": ".next\\server\\bundles\\pages\\_app.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".next\\server\\bundles\\pages\\_app.js.map"
+                },
+                {
+                    "blank": 5,
+                    "code": 56,
+                    "comment": 74,
+                    "filename": ".next\\server\\bundles\\pages\\_document.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".next\\server\\bundles\\pages\\_document.js.map"
+                },
+                {
+                    "blank": 5,
+                    "code": 56,
+                    "comment": 74,
+                    "filename": ".next\\server\\bundles\\pages\\_error.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".next\\server\\bundles\\pages\\_error.js.map"
+                },
+                {
+                    "blank": 245,
+                    "code": 5138,
+                    "comment": 214,
+                    "filename": ".next\\server\\bundles\\pages\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".next\\server\\bundles\\pages\\index.js.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".next\\server\\pages-manifest.json"
+                },
+                {
+                    "filename": ".next\\static\\2ca4c7030498a644948cd5b88b774ac9.woff",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".next\\static\\332044bd47811796240ce7535e3d0b03.woff",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1875,
+                    "code": 13299,
+                    "comment": 2774,
+                    "filename": ".next\\static\\commons\\main.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".next\\static\\commons\\main.js.map"
+                },
+                {
+                    "blank": 51,
+                    "code": 345,
+                    "comment": 438,
+                    "filename": ".next\\static\\commons\\manifest.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".next\\static\\commons\\manifest.js.map"
+                },
+                {
+                    "filename": ".next\\static\\dad89ac6fa93d2047566337a7ed4104b.woff2",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".next\\static\\f57c4e19e38cd7f03fa5568161bbc056.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".next\\static\\fa4aee7991a5d2745cfb874b5db0dba0.woff2",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": ".next\\static\\manifest.json"
+                },
+                {
+                    "blank": 8760,
+                    "code": 27820,
+                    "comment": 237,
+                    "filename": ".next\\static\\style.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".next\\static\\style.css.map"
+                },
+                {
+                    "filename": ".vs\\slnx.sqlite",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "build\\cert\\growreel.com.key"
+                },
+                {
+                    "blank": 0,
+                    "code": 25,
+                    "comment": 1,
+                    "filename": "build\\cert\\INTER.cert"
+                },
+                {
+                    "blank": 0,
+                    "code": 76,
+                    "comment": 1,
+                    "filename": "build\\cert\\PKCS7.cert"
+                },
+                {
+                    "blank": 0,
+                    "code": 21,
+                    "comment": 1,
+                    "filename": "build\\cert\\ROOT.cert"
+                },
+                {
+                    "blank": 0,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "build\\cert\\X509.cert"
+                },
+                {
+                    "blank": 3,
+                    "code": 21,
+                    "comment": 3,
+                    "filename": "components\\AuthForm\\index.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 315,
+                    "comment": 6,
+                    "filename": "components\\Comments\\Comment.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 116,
+                    "comment": 7,
+                    "filename": "components\\Comments\\Comments.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 46,
+                    "comment": 5,
+                    "filename": "components\\DimScreen.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 41,
+                    "comment": 10,
+                    "filename": "components\\HelpForm\\HelpPopDown.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 167,
+                    "comment": 3,
+                    "filename": "components\\HelpForm\\index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 15,
+                    "comment": 3,
+                    "filename": "components\\Home\\AdBar.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "components\\Home\\BookmarkPopup.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 4,
+                    "filename": "components\\Home\\Heading.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 51,
+                    "comment": 7,
+                    "filename": "components\\Home\\index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 39,
+                    "comment": 3,
+                    "filename": "components\\InputTag\\index.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "components\\InputTag\\Tag.js"
+                },
+                {
+                    "blank": 19,
+                    "code": 105,
+                    "comment": 5,
+                    "filename": "components\\Messages\\index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 15,
+                    "comment": 5,
+                    "filename": "components\\Navbar\\AuthButton.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 36,
+                    "comment": 4,
+                    "filename": "components\\Navbar\\Bars.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "components\\Navbar\\BugButton.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "components\\Navbar\\LiveButton.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 15,
+                    "comment": 4,
+                    "filename": "components\\Navbar\\LogoutButton.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 90,
+                    "comment": 5,
+                    "filename": "components\\Navbar\\Navbar.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 41,
+                    "comment": 4,
+                    "filename": "components\\Navbar\\NotificationButton.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 68,
+                    "comment": 4,
+                    "filename": "components\\Navbar\\SearchBar.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 249,
+                    "comment": 24,
+                    "filename": "components\\Navbar\\SideMenu.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 38,
+                    "comment": 4,
+                    "filename": "components\\Navbar\\UploadButton.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 84,
+                    "comment": 6,
+                    "filename": "components\\Navbar\\UserReelButton.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 71,
+                    "comment": 0,
+                    "filename": "components\\NotSupported\\index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "components\\NoUser\\index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "components\\NoVideo\\index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "components\\Offline\\index.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 90,
+                    "comment": 0,
+                    "filename": "components\\PasswordReset\\index.js"
+                },
+                {
+                    "blank": 22,
+                    "code": 784,
+                    "comment": 8,
+                    "filename": "components\\Reel\\index.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 442,
+                    "comment": 58,
+                    "filename": "components\\Reel\\MobileReel.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 64,
+                    "comment": 28,
+                    "filename": "components\\ReportForm\\index.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 377,
+                    "comment": 50,
+                    "filename": "components\\Search\\index.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 114,
+                    "comment": 9,
+                    "filename": "components\\SettingsForm\\index.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 128,
+                    "comment": 4,
+                    "filename": "components\\UploadForm\\index.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 30,
+                    "comment": 4,
+                    "filename": "components\\UploadForm\\UploadSummary.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 12,
+                    "comment": 6,
+                    "filename": "components\\Utilities\\nuka-carousel\\CHANGELOG.md"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "components\\Utilities\\nuka-carousel\\es\\all-transitions.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "components\\Utilities\\nuka-carousel\\es\\announce-slide.js"
+                },
+                {
+                    "blank": 26,
+                    "code": 146,
+                    "comment": 3,
+                    "filename": "components\\Utilities\\nuka-carousel\\es\\default-controls.js"
+                },
+                {
+                    "blank": 103,
+                    "code": 903,
+                    "comment": 13,
+                    "filename": "components\\Utilities\\nuka-carousel\\es\\index.js"
+                },
+                {
+                    "blank": 25,
+                    "code": 153,
+                    "comment": 4,
+                    "filename": "components\\Utilities\\nuka-carousel\\es\\transitions\\fade-transition.js"
+                },
+                {
+                    "blank": 23,
+                    "code": 288,
+                    "comment": 2,
+                    "filename": "components\\Utilities\\nuka-carousel\\es\\transitions\\scroll-transition.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 55,
+                    "comment": 0,
+                    "filename": "components\\Utilities\\nuka-carousel\\es\\utilities.js"
+                },
+                {
+                    "blank": 12,
+                    "code": 62,
+                    "comment": 4,
+                    "filename": "components\\Utilities\\nuka-carousel\\es\\utilities\\bootstrapping-utilities.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 145,
+                    "comment": 0,
+                    "filename": "components\\Utilities\\nuka-carousel\\es\\utilities\\style-utilities.js"
+                },
+                {
+                    "blank": 19,
+                    "code": 137,
+                    "comment": 0,
+                    "filename": "components\\Utilities\\nuka-carousel\\es\\utilities\\utilities.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "components\\Utilities\\nuka-carousel\\index.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "components\\Utilities\\nuka-carousel\\lib\\all-transitions.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "components\\Utilities\\nuka-carousel\\lib\\announce-slide.js"
+                },
+                {
+                    "blank": 34,
+                    "code": 155,
+                    "comment": 3,
+                    "filename": "components\\Utilities\\nuka-carousel\\lib\\default-controls.js"
+                },
+                {
+                    "blank": 117,
+                    "code": 927,
+                    "comment": 13,
+                    "filename": "components\\Utilities\\nuka-carousel\\lib\\index.js"
+                },
+                {
+                    "blank": 29,
+                    "code": 159,
+                    "comment": 4,
+                    "filename": "components\\Utilities\\nuka-carousel\\lib\\transitions\\fade-transition.js"
+                },
+                {
+                    "blank": 29,
+                    "code": 174,
+                    "comment": 1,
+                    "filename": "components\\Utilities\\nuka-carousel\\lib\\transitions\\scroll-transition.js"
+                },
+                {
+                    "blank": 14,
+                    "code": 64,
+                    "comment": 0,
+                    "filename": "components\\Utilities\\nuka-carousel\\lib\\utilities.js"
+                },
+                {
+                    "blank": 20,
+                    "code": 71,
+                    "comment": 4,
+                    "filename": "components\\Utilities\\nuka-carousel\\lib\\utilities\\bootstrapping-utilities.js"
+                },
+                {
+                    "blank": 20,
+                    "code": 155,
+                    "comment": 0,
+                    "filename": "components\\Utilities\\nuka-carousel\\lib\\utilities\\style-utilities.js"
+                },
+                {
+                    "blank": 36,
+                    "code": 150,
+                    "comment": 0,
+                    "filename": "components\\Utilities\\nuka-carousel\\lib\\utilities\\utilities.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "components\\Utilities\\nuka-carousel\\LICENSE"
+                },
+                {
+                    "blank": 1,
+                    "code": 92,
+                    "comment": 0,
+                    "filename": "components\\Utilities\\nuka-carousel\\package.json"
+                },
+                {
+                    "blank": 18,
+                    "code": 50,
+                    "comment": 2,
+                    "filename": "components\\Utilities\\nuka-carousel\\README.md"
+                },
+                {
+                    "blank": 3,
+                    "code": 45,
+                    "comment": 1,
+                    "filename": "components\\Utilities\\ShowMore\\index.js"
+                },
+                {
+                    "blank": 143,
+                    "code": 688,
+                    "comment": 115,
+                    "filename": "components\\Utilities\\Slider\\index.js"
+                },
+                {
+                    "blank": 13,
+                    "code": 186,
+                    "comment": 12,
+                    "filename": "components\\Videos\\ControlBar.js"
+                },
+                {
+                    "blank": 36,
+                    "code": 421,
+                    "comment": 12,
+                    "filename": "components\\Videos\\Video.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 78,
+                    "comment": 5,
+                    "filename": "components\\Videos\\VideoCarousel.js"
+                },
+                {
+                    "blank": 37,
+                    "code": 1052,
+                    "comment": 63,
+                    "filename": "components\\Videos\\VideoPlayer.js"
+                },
+                {
+                    "blank": 15,
+                    "code": 234,
+                    "comment": 11,
+                    "filename": "components\\Videos\\VideoThumbnail.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 349,
+                    "comment": 23,
+                    "filename": "HOC\\Layout.js"
+                },
+                {
+                    "blank": 13,
+                    "code": 64,
+                    "comment": 29,
+                    "filename": "lib\\initApollo.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 68,
+                    "comment": 12,
+                    "filename": "lib\\withData.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "mongo"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "mongod"
+                },
+                {
+                    "blank": 6,
+                    "code": 65,
+                    "comment": 24,
+                    "filename": "next.config.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "nodemon.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 113,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "blank": 5,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "pages\\404.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 42,
+                    "comment": 7,
+                    "filename": "pages\\_app.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 78,
+                    "comment": 0,
+                    "filename": "pages\\_document.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 149,
+                    "comment": 4,
+                    "filename": "pages\\agreement.js"
+                },
+                {
+                    "blank": 32,
+                    "code": 228,
+                    "comment": 10,
+                    "filename": "pages\\cookies_policy.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 48,
+                    "comment": 0,
+                    "filename": "pages\\copyright_notice.js"
+                },
+                {
+                    "blank": 17,
+                    "code": 181,
+                    "comment": 20,
+                    "filename": "pages\\index.js"
+                },
+                {
+                    "blank": 13,
+                    "code": 113,
+                    "comment": 1,
+                    "filename": "pages\\privacy_policy.js"
+                },
+                {
+                    "blank": 25,
+                    "code": 236,
+                    "comment": 0,
+                    "filename": "pages\\terms.js"
+                },
+                {
+                    "blank": 97,
+                    "code": 838,
+                    "comment": 0,
+                    "filename": "pages\\terms_dataprocessing.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "postcss.config.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 27,
+                    "comment": 15,
+                    "filename": "registerServiceWorker.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "routes\\index.js"
+                },
+                {
+                    "blank": 87,
+                    "code": 966,
+                    "comment": 67,
+                    "filename": "scss\\home.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "scss\\search.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "scss\\showVideo.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "scss\\uploader.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "scss\\userDashboard.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "server\\data\\emails\\index.js"
+                },
+                {
+                    "blank": 19,
+                    "code": 39,
+                    "comment": 68,
+                    "filename": "server\\data\\emails\\passwordReset.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 17,
+                    "comment": 22,
+                    "filename": "server\\data\\emails\\welcome.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "server\\data\\resolvers\\ActivityRecord.js"
+                },
+                {
+                    "blank": 13,
+                    "code": 116,
+                    "comment": 9,
+                    "filename": "server\\data\\resolvers\\Comment.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "server\\data\\resolvers\\EmailRequest.js"
+                },
+                {
+                    "blank": 29,
+                    "code": 262,
+                    "comment": 17,
+                    "filename": "server\\data\\resolvers\\functions.js"
+                },
+                {
+                    "blank": 17,
+                    "code": 94,
+                    "comment": 0,
+                    "filename": "server\\data\\resolvers\\Global.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 35,
+                    "comment": 1,
+                    "filename": "server\\data\\resolvers\\HistoryElement.js"
+                },
+                {
+                    "blank": 15,
+                    "code": 101,
+                    "comment": 4,
+                    "filename": "server\\data\\resolvers\\index.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 33,
+                    "comment": 1,
+                    "filename": "server\\data\\resolvers\\List.js"
+                },
+                {
+                    "blank": 12,
+                    "code": 65,
+                    "comment": 0,
+                    "filename": "server\\data\\resolvers\\Messages.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "server\\data\\resolvers\\Report.js"
+                },
+                {
+                    "blank": 16,
+                    "code": 77,
+                    "comment": 5,
+                    "filename": "server\\data\\resolvers\\S3.js"
+                },
+                {
+                    "blank": 21,
+                    "code": 119,
+                    "comment": 17,
+                    "filename": "server\\data\\resolvers\\User.js"
+                },
+                {
+                    "blank": 13,
+                    "code": 122,
+                    "comment": 4,
+                    "filename": "server\\data\\resolvers\\Video.js"
+                },
+                {
+                    "blank": 31,
+                    "code": 305,
+                    "comment": 0,
+                    "filename": "server\\data\\schema.js"
+                },
+                {
+                    "blank": 18,
+                    "code": 157,
+                    "comment": 15,
+                    "filename": "server\\index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 10,
+                    "comment": 4,
+                    "filename": "server\\models\\ActivityRecord.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 36,
+                    "comment": 12,
+                    "filename": "server\\models\\Comment.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 8,
+                    "comment": 4,
+                    "filename": "server\\models\\EmailRequest.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 19,
+                    "comment": 4,
+                    "filename": "server\\models\\Global.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 14,
+                    "comment": 4,
+                    "filename": "server\\models\\HistoryElement.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "server\\models\\index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 19,
+                    "comment": 4,
+                    "filename": "server\\models\\List.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 7,
+                    "comment": 4,
+                    "filename": "server\\models\\Report.js"
+                },
+                {
+                    "blank": 14,
+                    "code": 97,
+                    "comment": 14,
+                    "filename": "server\\models\\User.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 46,
+                    "comment": 13,
+                    "filename": "server\\models\\Video.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "server\\robots.txt"
+                },
+                {
+                    "blank": 15,
+                    "code": 27,
+                    "comment": 2,
+                    "filename": "static\\agreements\\cookies.txt"
+                },
+                {
+                    "blank": 4,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "static\\agreements\\copyright_notice.txt"
+                },
+                {
+                    "blank": 5,
+                    "code": 27,
+                    "comment": 4,
+                    "filename": "static\\agreements\\eula.txt"
+                },
+                {
+                    "blank": 12,
+                    "code": 36,
+                    "comment": 1,
+                    "filename": "static\\agreements\\privacy.txt"
+                },
+                {
+                    "blank": 24,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "static\\agreements\\terms.txt"
+                },
+                {
+                    "blank": 95,
+                    "code": 177,
+                    "comment": 0,
+                    "filename": "static\\agreements\\terms_dataprocessing.txt"
+                },
+                {
+                    "filename": "static\\default\\avatar\\avatar_01.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\default\\avatar\\avatar_02.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\default\\avatar\\avatar_03.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\default\\avatar\\avatar_04.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\default\\avatar\\avatar_05.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\default\\avatar\\avatar_06.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\default\\avatar\\avatar_07.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\default\\avatar\\avatar_08.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\default\\avatar\\avatar_09.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\default\\avatar\\avatar_10.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\default\\thumbnail\\video_thumbnail.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "static\\fonts\\Lato1\\generator_config.txt"
+                },
+                {
+                    "blank": 115,
+                    "code": 489,
+                    "comment": 0,
+                    "filename": "static\\fonts\\Lato1\\lato-hairline-demo.html"
+                },
+                {
+                    "filename": "static\\fonts\\Lato1\\lato-hairline-webfont.woff",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\fonts\\Lato1\\lato-hairline-webfont.woff2",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 24,
+                    "code": 95,
+                    "comment": 10,
+                    "filename": "static\\fonts\\Lato1\\specimen_files\\grid_12-825-55-15.css"
+                },
+                {
+                    "blank": 65,
+                    "code": 320,
+                    "comment": 11,
+                    "filename": "static\\fonts\\Lato1\\specimen_files\\specimen_stylesheet.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 7,
+                    "comment": 1,
+                    "filename": "static\\fonts\\Lato1\\stylesheet.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "static\\fonts\\Lato2\\generator_config.txt"
+                },
+                {
+                    "blank": 115,
+                    "code": 489,
+                    "comment": 0,
+                    "filename": "static\\fonts\\Lato2\\lato-light-demo.html"
+                },
+                {
+                    "filename": "static\\fonts\\Lato2\\lato-light-webfont.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\fonts\\Lato2\\lato-light-webfont.woff",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\fonts\\Lato2\\lato-light-webfont.woff2",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 24,
+                    "code": 95,
+                    "comment": 10,
+                    "filename": "static\\fonts\\Lato2\\specimen_files\\grid_12-825-55-15.css"
+                },
+                {
+                    "blank": 65,
+                    "code": 320,
+                    "comment": 11,
+                    "filename": "static\\fonts\\Lato2\\specimen_files\\specimen_stylesheet.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 7,
+                    "comment": 1,
+                    "filename": "static\\fonts\\Lato2\\stylesheet.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "static\\handlers\\nouser.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "static\\handlers\\novideopage.html"
+                },
+                {
+                    "filename": "static\\icons\\192px_icon.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\icons\\512px_icon.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\images\\backgrounds\\background_01.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\images\\backgrounds\\background_02.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\images\\backgrounds\\background_03.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\images\\backgrounds\\background_04.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\images\\backgrounds\\background_05.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\images\\backgrounds\\background_06.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\images\\browser_icons\\logo-chrome.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\images\\browser_icons\\logo-firefox.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\images\\browser_icons\\logo-opera.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\images\\browser_icons\\logo-safari.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\images\\css-loader\\FullLeaf.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\images\\GrowReelLogoGrey.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\images\\GrowReelLogoHorizontal.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "static\\videos\\Default_Ad_Video.mp4",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static\\workbox\\next-precache-manifest-492c5b73505e07d4a3e6de585762c41a.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static\\workbox\\next-precache-manifest-bf67a47b52a4a283a3b0760e8822d6a7.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 61,
+                    "comment": 17,
+                    "filename": "static\\workbox\\sw.js"
+                },
+                {
+                    "blank": 60,
+                    "code": 236,
+                    "comment": 299,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-background-sync.dev.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-background-sync.dev.js.map"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-background-sync.prod.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-background-sync.prod.js.map"
+                },
+                {
+                    "blank": 30,
+                    "code": 133,
+                    "comment": 233,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-broadcast-cache-update.dev.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-broadcast-cache-update.dev.js.map"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-broadcast-cache-update.prod.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-broadcast-cache-update.prod.js.map"
+                },
+                {
+                    "blank": 89,
+                    "code": 346,
+                    "comment": 306,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-cache-expiration.dev.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-cache-expiration.dev.js.map"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-cache-expiration.prod.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-cache-expiration.prod.js.map"
+                },
+                {
+                    "blank": 26,
+                    "code": 94,
+                    "comment": 117,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-cacheable-response.dev.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-cacheable-response.dev.js.map"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-cacheable-response.prod.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-cacheable-response.prod.js.map"
+                },
+                {
+                    "blank": 156,
+                    "code": 814,
+                    "comment": 558,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-core.dev.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-core.dev.js.map"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-core.prod.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-core.prod.js.map"
+                },
+                {
+                    "blank": 34,
+                    "code": 106,
+                    "comment": 117,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-google-analytics.dev.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-google-analytics.dev.js.map"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-google-analytics.prod.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-google-analytics.prod.js.map"
+                },
+                {
+                    "blank": 14,
+                    "code": 47,
+                    "comment": 99,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-navigation-preload.dev.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-navigation-preload.dev.js.map"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-navigation-preload.prod.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-navigation-preload.prod.js.map"
+                },
+                {
+                    "blank": 136,
+                    "code": 518,
+                    "comment": 519,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-precaching.dev.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-precaching.dev.js.map"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-precaching.prod.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-precaching.prod.js.map"
+                },
+                {
+                    "blank": 34,
+                    "code": 128,
+                    "comment": 138,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-range-requests.dev.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-range-requests.dev.js.map"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-range-requests.prod.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-range-requests.prod.js.map"
+                },
+                {
+                    "blank": 63,
+                    "code": 293,
+                    "comment": 321,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-routing.dev.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-routing.dev.js.map"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-routing.prod.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-routing.prod.js.map"
+                },
+                {
+                    "blank": 118,
+                    "code": 570,
+                    "comment": 485,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-strategies.dev.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-strategies.dev.js.map"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-strategies.prod.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-strategies.prod.js.map"
+                },
+                {
+                    "blank": 37,
+                    "code": 139,
+                    "comment": 191,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-streams.dev.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-streams.dev.js.map"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-streams.prod.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-streams.prod.js.map"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-sw.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "static\\workbox\\workbox-v3.6.3\\workbox-sw.js.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "stats.json"
+                },
+                {
+                    "blank": 5,
+                    "code": 25,
+                    "comment": 2,
+                    "filename": "store\\actions\\Ads.js"
+                },
+                {
+                    "blank": 17,
+                    "code": 331,
+                    "comment": 6,
+                    "filename": "store\\actions\\Comment.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 68,
+                    "comment": 6,
+                    "filename": "store\\actions\\EmailRequest.js"
+                },
+                {
+                    "blank": 14,
+                    "code": 104,
+                    "comment": 7,
+                    "filename": "store\\actions\\Global.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 51,
+                    "comment": 7,
+                    "filename": "store\\actions\\HistoryElement.js"
+                },
+                {
+                    "blank": 17,
+                    "code": 103,
+                    "comment": 10,
+                    "filename": "store\\actions\\Image.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 184,
+                    "comment": 15,
+                    "filename": "store\\actions\\index.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 179,
+                    "comment": 5,
+                    "filename": "store\\actions\\List.js"
+                },
+                {
+                    "blank": 12,
+                    "code": 112,
+                    "comment": 6,
+                    "filename": "store\\actions\\Messages.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 203,
+                    "comment": 4,
+                    "filename": "store\\actions\\Reel.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 56,
+                    "comment": 7,
+                    "filename": "store\\actions\\Report.js"
+                },
+                {
+                    "blank": 12,
+                    "code": 134,
+                    "comment": 6,
+                    "filename": "store\\actions\\Search.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 83,
+                    "comment": 6,
+                    "filename": "store\\actions\\Uploader.js"
+                },
+                {
+                    "blank": 21,
+                    "code": 412,
+                    "comment": 11,
+                    "filename": "store\\actions\\User.js"
+                },
+                {
+                    "blank": 36,
+                    "code": 697,
+                    "comment": 30,
+                    "filename": "store\\actions\\Video.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 13,
+                    "comment": 7,
+                    "filename": "store\\DevTools.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 19,
+                    "comment": 10,
+                    "filename": "store\\index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 33,
+                    "comment": 22,
+                    "filename": "store\\middleware\\index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "store\\reducer\\Comment.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "store\\reducer\\EmailRequest.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "store\\reducer\\Global.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "store\\reducer\\HistoryElement.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 11,
+                    "comment": 4,
+                    "filename": "store\\reducer\\Image.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 196,
+                    "comment": 7,
+                    "filename": "store\\reducer\\index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 54,
+                    "comment": 9,
+                    "filename": "store\\reducer\\List.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 17,
+                    "comment": 5,
+                    "filename": "store\\reducer\\Messages.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 116,
+                    "comment": 3,
+                    "filename": "store\\reducer\\Reel.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "store\\reducer\\Report.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "store\\reducer\\Search.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 58,
+                    "comment": 0,
+                    "filename": "store\\reducer\\Uploader.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 41,
+                    "comment": 4,
+                    "filename": "store\\reducer\\User.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 147,
+                    "comment": 29,
+                    "filename": "store\\reducer\\Video.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 5,
+                    "filename": "store\\utility.js"
+                },
+                {
+                    "blank": 71,
+                    "code": 398,
+                    "comment": 483,
+                    "filename": "tailwind.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 3301,
+                    "comment": 0,
+                    "filename": "versions"
+                },
+                {
+                    "blank": 1575,
+                    "code": 7030,
+                    "comment": 0,
+                    "filename": "yarn.lock"
+                }
+            ]
+        }
+    ]
+}

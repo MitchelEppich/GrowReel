@@ -1,0 +1,132 @@
+import withData from "../lib/withData";
+import React, { Component } from "react";
+import { connect } from "react-redux";
+
+class Index extends Component {
+  render() {
+    return (
+      <div>
+        <p>GrowReel Copyright Notice </p>
+        <p>Last Updated: October 10, 2018</p>
+        <p>
+          Filing a DMCA Notice to Remove Copyrighted Content-for Copyright
+          Holders If you believe that your work has been copied in a way that
+          constitutes copyright infringement, please provide us with a written
+          notice containing the following information:
+        </p>
+
+        <p>
+          Your name, address, telephone number, and email address (if any). A
+          description of the copyrighted work that you claim has been infringed.
+          A description of where on the GrowReel Site the material that you
+          claim is infringing may be found, sufficient for GrowReel to locate
+          the material (e.g., the URL). A statement that you have a good faith
+          belief that the use of the copyrighted work is not authorized by the
+          copyright owner, its agent, or the law. A statement by you UNDER
+          PENALTY OF PERJURY that the information in your notice is accurate and
+          that you are the copyright owner or authorized to act on the copyright
+          owner's behalf. Your electronic or physical signature. You may submit
+          this information via:
+        </p>
+
+        <p>
+          Filing a DMCA Counter-Notification to Restore Removed
+          Content&mdash;for GrowReel Users If you believe that your material has
+          been removed by mistake or misidentification, please provide GrowReel
+          with a written counter-notification containing the following
+          information:
+        </p>
+
+        <p>
+          Your name, address, and telephone number. A description of the
+          material that was removed and the location on the GrowReel Site (e.g.,
+          the URL) where it previously appeared. A statement UNDER PENALTY OF
+          PERJURY that you have a good faith belief that the material was
+          removed or disabled as a result of mistake or misidentification. A
+          statement that you consent to the jurisdiction of the Federal District
+          Court for the judicial district in which your address is located, or
+          if your address is outside of the United States, any judicial district
+          in which GrowReel may be found (which includes the United States
+          District Court for the Southern District of New York), and that you
+          will accept service of process from the person who filed the original
+          DMCA notice or an agent of that person. Your electronic or physical
+          signature. You may submit this information via:
+        </p>
+
+        <p>
+          Repeat Infringer Policy GrowReel will terminate user accounts that
+          have been the subject of three (3) separate DMCA notices. In the event
+          a user&rsquo;s materials are removed due to a DMCA notice and then
+          subsequently restored due to the filing of a DMCA
+          counter-notification, GrowReel will treat the underlying DMCA notice
+          as withdrawn.
+        </p>
+
+        <p>
+          GrowReel reserves the right to terminate user accounts that are the
+          subject of fewer than three (3) DMCA notices in appropriate
+          circumstances, such as where the user has a history of violating or
+          willfully disregarding GrowReel&rsquo;s Terms of Service.
+        </p>
+
+        <p>
+          Warning In filing a DMCA notice or counter-notification, please make
+          sure that you have complied with all of the above requirements. If we
+          request additional information necessary to make your DMCA notice or
+          counter-notification complete, please provide that information
+          promptly. If you fail to comply with all of these requirements, your
+          DMCA notice or counter-notification may not be processed further.
+        </p>
+
+        <p>
+          In addition, please make sure that all of the information you provide
+          is accurate. UNDER SECTION 512(f) OF THE COPYRIGHT ACT, 17 U.S.C.
+          &sect; 512(f), ANY PERSON WHO KNOWINGLY MATERIALLY MISREPRESENTS THAT
+          MATERIAL OR ACTIVITY IS INFRINGING OR WAS REMOVED OR DISABLED BY
+          MISTAKE OR MISIDENTIFICATION MAY BE SUBJECT TO LIABILITY.
+        </p>
+
+        <p>
+          GrowReel may disclose any communications concerning DMCA notices or
+          other intellectual property complaints with third parties, including
+          the users who have posted the allegedly infringing material, and may
+          provide DMCA notices to Chilling Effects
+        </p>
+
+        <p>
+          If you have questions about the legal requirements of a DMCA notice,
+          please contact an attorney or see the Canadian copyright act, for more
+          information. If you have questions about the legal requirements of a
+          DMCA counter-notification, please contact an attorney or see Section
+          512(g)(3) of the U.S. Copyright Act, 17 U.S.C. &sect; 512(g)(3), for
+          more information.
+        </p>
+
+        <p>
+          GrowReel's Copyright Agent In addition to the webforms we provide, you
+          may send a DMCA notice, a DMCA counter-notification, or any inquiries
+          concerning intellectual property to GrowReel&rsquo;s Copyright Agent:
+        </p>
+
+        <p>GrowReel, Inc. 112 East 6th Ave. British Columbia, Canada V5T 1J5</p>
+
+        <p>
+          Trademark Law and Infringement If you believe a GrowReel member is
+          infringing on your trademark, please file a trademark complaint and a
+          GrowReel moderator will investigate your claim right away. If you are
+          unsure if your trademark is being infringed, please visit our
+          Trademark FAQ to learn more about trademark law and infringement.
+        </p>
+
+        <p>
+          Privacy Violation If you believe a GrowReel member is violating your
+          privacy, please file a privacy complaint and a GrowReel moderator will
+          investigate your claim right away. Pease visit our privacy page to
+          learn more about our privacy policy.
+        </p>
+      </div>
+    );
+  }
+}
+
+export default connect(state => state)(withData(Index));

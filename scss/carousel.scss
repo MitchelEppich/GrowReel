@@ -1,0 +1,22 @@
+/*******hor carousel controls*****/
+.slider-control-centerleft {
+  left: -3rem !important;
+  bottom: 2rem !important;
+}
+
+.slider-control-centerright {
+  right: -3rem !important;
+  bottom: 2rem !important;
+}
+
+@media screen and (max-width: 600px) {
+  .slider-control-centerleft {
+    left: -1.5rem !important;
+    bottom: 2rem !important;
+  }
+
+  .slider-control-centerright {
+    right: -1.5rem !important;
+    bottom: 2rem !important;
+  }
+}
