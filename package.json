@@ -48,7 +48,7 @@
     "jsonwebtoken": "8.3.0",
     "marked": "^0.3.6",
     "moment": "^2.22.2",
-    "mongoose": "^5.2.3",
+    "mongoose": "^5.7.5",
     "next": "6.1.2",
     "next-images": "^0.10.5",
     "next-redux-wrapper": "^2.0.0",
