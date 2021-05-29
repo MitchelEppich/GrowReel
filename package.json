@@ -93,7 +93,7 @@
     "webpack-bundle-analyzer": "^2.13.1",
     "webpack-manifest-plugin": "^2.0.4",
     "webpack-pwa-manifest": "^3.7.1",
-    "ws": "^6.0.0",
+    "ws": "^7.4.6",
     "wss": "^3.3.4"
   },
   "devDependencies": {
