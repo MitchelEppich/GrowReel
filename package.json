@@ -54,7 +54,7 @@
     "next-redux-wrapper": "^2.0.0",
     "next-workbox-webpack-plugin": "^1.1.0",
     "node-fetch": "^2.2.0",
-    "node-sass": "^4.9.0",
+    "node-sass": "^7.0.0",
     "nodemailer": "^4.6.8",
     "nuka-carousel": "4.4.3",
     "postcss-easy-import": "^3.0.0",
